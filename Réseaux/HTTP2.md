@@ -19,6 +19,7 @@ Le principale objectif de HTTP/2 est de réduire la latence (c’est pour ça qu
 Une connexion TCP multiplexé: Comme précisé au dessus, HTTP/2 ne permet qu’une connexion TCP car celle-ci prend beaucoup de temps à s’établir, mais permet de faire une requête sur cette même connexion.
 Compression d’en-tête HTTP: Contrairement à HTTP/1.1, HTTP/2 compresse les en-têtes. De plus, il ne place un en-tête que s' il y a un changement d’état par rapport à la requête précédente, réduisant ainsi la répétition.
 Serveur Push: Au lieu de lire la page HTML et de déterminer les ressources nécessaires à partir de celle-ci (exemple: page de style css), le serveur se charge de les envoyés directement, évitant ainsi d'attendre que le serveur lise la page HTML
+(https://i.goopics.net/jof53p.png)
 
 source: https://www.infoq.com/fr/articles/http2-les-details/
 
