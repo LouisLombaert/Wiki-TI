@@ -40,7 +40,7 @@ Une connexion TCP multiplexé: Comme précisé au dessus, HTTP/2 ne permet qu’
 Compression d’en-tête HTTP: Contrairement à HTTP/1.1, HTTP/2 compresse les en-têtes, grâce à un algorithme nommé HPACK. De plus, il ne place un en-tête que s' il y a un changement d’état par rapport à la requête précédente, réduisant ainsi la répétition.
 Serveur Push: Au lieu de lire la page HTML et de déterminer les ressources nécessaires à partir de celle-ci (exemple: page de style css), le serveur se charge de les envoyés directement, évitant ainsi d'attendre que le serveur lise la page HTML
 
-![image]([https://user-images.githubusercontent.com/71312671/163960230-f5a4070d-5254-40a6-9b6f-455aa8fa6922.png](https://i.goopics.net/ujhh9w.png))
+![image](https://i.goopics.net/ujhh9w.png)
 
 source: https://www.infoq.com/fr/articles/http2-les-details/
 
@@ -51,7 +51,7 @@ Protocole binaire: les commandes sont transmises dans un format binaire, (zéro 
 
 Performance: le multiplexage permet de transmettre plus de données en même temps, ce qui va considérablement augmenter la vitesse. En effet, il n’est plus nécessaire d’établir une connexion (connexions prenant beaucoup de temps à s’établir) à chaque fois qu’une requête est envoyée. De plus, les requêtes prioritaires ne sont plus bloquées par des requêtes d’importance mineures.
 
-![image]([[https://user-images.githubusercontent.com/71312671/163960230-f5a4070d-5254-40a6-9b6f-455aa8fa6922.png](https://i.goopics.net/ujhh9w.png](https://i.goopics.net/jpngdt.png))
+![image](https://i.goopics.net/jpngdt.png)
 
 
 source: https://www.disko.fr/wp-content/uploads/2016/07/Image5.png
